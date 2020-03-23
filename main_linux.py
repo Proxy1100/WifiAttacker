@@ -40,7 +40,7 @@ page2 = False
 #=============================
 # Graphics # http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
 
-arrow = Fore.RED + "  └──>".decode("utf-8").strip() + Fore.WHITE
+#arrow = Fore.RED + "  └──>".decode("utf-8").strip() + Fore.WHITE
 arrow = str(arrow)
 connect = Fore.RED + "│".decode("utf-8").strip() + Fore.WHITE
 
@@ -437,7 +437,7 @@ def clear(page):
     global page2
     os.system('clear')
     banner_title = random.choice([logo_design_1,logo_design_2,logo_design_3,logo_design_4])
-    print (Fore.RED + banner_title)    
+    print (Fore.RED + banner_title)   
     print (page)
 
 
